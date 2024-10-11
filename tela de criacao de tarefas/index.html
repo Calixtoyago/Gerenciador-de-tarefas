@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Criar Tarefa</title>
+</head>
+<body>
+    <div class="container">
+        <form class="criar_tarefa">
+            <h2>Criar Tarefa</h2>
+            <div class="input_group">
+                <label id="title">Título:</label>
+                <input type="text" id="title" name="title">
+            </div>
+            <div class="input_group">
+                <label id="description">Descrição:</label>
+                <input type="text" id="description" name="description" maxlength="500" >
+            </div>
+            <div class="input_group">
+                <label id="prazo">Prazo:</label>
+                <input type="date" id="prazo" name="days" min="2024-01-02">
+            </div>
+            <div class="input_group">
+                <label id="responsaveis">Responsáveis:</label>
+                <input type="text" id="responsaveis" name="responsaveis">
+                <input type="button" id="responsaveis" value="Adicionar">
+            </div>
+            <input href="#" type="button" id="subtarefa" value="Adicionar Sub-tarefa">
+            <input type="submit" id="concluido" value="Concluído">
+        </form>
+    </div>
+</body>
+</html>
